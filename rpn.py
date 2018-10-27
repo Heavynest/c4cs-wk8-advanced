@@ -19,7 +19,9 @@ def calculate(arg):
 			result=func(val2,val1)
 			stack.append(result)			
 			return stack[0]
-
+def trivial():
+	a=[1,2,3]
+	b="this is nothing"
 def main():
 	while True:
 		print(calculate(input("rpn calc> ")))
